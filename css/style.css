@@ -718,6 +718,15 @@ button:hover {
 .menu__checkstatus-desctop:hover,
 .main__article-button:hover {
   filter: invert(75%);
+  animation: rotate 1.1s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .menu__text1,
