@@ -52,7 +52,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 87px;
     border-bottom: 1px solid #d9fff5;
