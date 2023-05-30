@@ -707,7 +707,9 @@ button:hover {
   text-align: left;
   color: #1b1c21;
 }
-
+.main__article-button:hover{
+  filter: invert(73%);
+}
 .menu__burger:hover,
 .menu__call:hover,
 .menu__chat:hover,
@@ -715,9 +717,8 @@ button:hover {
 .menu__repair:hover,
 .menu__checkstatus:hover,
 .menu__repair-desctop:hover,
-.menu__checkstatus-desctop:hover,
-.main__article-button:hover {
-  filter: invert(75%);
+.menu__checkstatus-desctop:hover {
+  filter: invert(100%);
   animation: rotate 1.1s;
 }
 @keyframes rotate {
